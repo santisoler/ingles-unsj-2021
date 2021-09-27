@@ -1,6 +1,7 @@
 <!-- .slide: class="slide-title" -->
 
-# Title
+# Methodologies and computational tools for processing and modelling gravity data
+
 
 ## [Santiago Soler](https://www.santisoler.com)
 
@@ -27,6 +28,151 @@
 </a>
 </div>
 </div>
+
+---
+
+# Advisor: Mario Giménez
+
+<img src="images/mario.jpg" alt="" style="height: 400px;">
+
+Researcher at CONICET and</br> at Instituto Geofísico Sismológico Volponi
+
+---
+
+# Co-advisor: Leonardo Uieda
+
+<img src="images/leouieda.jpg" alt="" style="height: 400px;">
+
+Lecturer in Geophysics at University of Liverpool</br>
+Head of the Computer-Oriented Geoscience Lab</br>
+Core developer of the Fatiando a Terra project</br>
+
+---
+
+# Goals
+
+- Gravitational effects of tesseroids with variable density
+- Interpolation of very large gravity datasets through equivalent sources
+- Open-source software implementations
+
+---
+
+# What is gravity data?
+
+<img src="images/gravity_magnetic_surveys.svg" alt="" style="height: 600px">
+
+---
+
+# Gravity surveys
+
+<div class="container">
+<div class="column">
+<img src="images/ground_survey.svg" alt="" style="height: 600px">
+
+Ground survey
+
+</div>
+<div class="column">
+<img src="images/airborne_survey.svg" alt="" style="height: 600px">
+
+Airborne survey
+
+</div>
+</div>
+
+---
+
+# Gravity surveys
+
+- Unevenly distributed
+- Variable observation height
+
+---
+
+# Interpolating gravity data
+
+<dl>
+    <dt>Interpolation:</dt>
+    <dd>Predict the values of a field on unobserved locations.</dd>
+    <dt>Gridding:</dt>
+    <dd>Interpolate onto a regular grid.</dd>
+</dl>
+
+<img src="images/gridding-schematics.svg" alt="" style="height: 400px">
+
+---
+
+# General purpose interpolators
+
+<div class="container">
+<div class="column">
+<img src="images/not-function-of-height.svg" alt="" style="height: 300px">
+
+Don't take into account the <br> **observation heights**
+
+</div>
+<div class="column">
+<img src="images/not-harmonic.svg" alt="" style="height: 300px">
+
+Don't produce <br> **harmonic fields**
+
+</div>
+</div>
+
+
+---
+
+# Equivalent sources
+
+<div class="container">
+
+<div class="column">
+<img src="images/equivalent-sources.svg" alt="" style="height: 400px">
+</div>
+
+<div class="column">
+
+1. Define a set of sources.
+1. Estimate source coefficients.
+1. Predict field on grid points.
+
+</div>
+</div>
+
+---
+
+## Advantages
+
+<div class="container">
+<div class="column">
+<img src="images/function-of-height.svg" alt="" style="height: 300px">
+
+Take into account the <br> **observation heights**
+
+</div>
+<div class="column">
+<img src="images/harmonic-field.svg" alt="" style="height: 300px">
+
+Always produce <br> **harmonic fields**
+
+</div>
+</div>
+
+---
+
+## Disadvantages
+
+<img src="images/ram-on-fire.svg" alt="" style="height: 300px">
+
+Gridding large datasets require a lot of **computer memory**.
+
+---
+
+# The solution
+
+---
+
+# Gradient-boosted equivalent sources
 
 ---
 
