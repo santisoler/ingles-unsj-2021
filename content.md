@@ -168,131 +168,122 @@ Gridding large datasets require a lot of **computer memory**.
 
 ---
 
-# The solution
-
----
+## The solution:
 
 # Gradient-boosted equivalent sources
 
 ---
 
-# Regular slide
+## How do gradient-boosted equivalent sources work?
 
-## With subtitles
+<img src="images/eql-gradient-boosted.svg" style="width: 80%;">
 
 ---
 
-# Do you want columns?
+## Gradient-boosted equivalent sources
 
-<div class="container">
+- Removes memory limitations
+- Control memory usage through window size
+- Randomizing windows improves convergence
 
+---
+
+## Gridding large gravity dataset from Australia
+
+<div class="container" style="max-height: 60%">
 <div class="column">
-<img src="images/about.jpg" style="margin-top: 5%; border-radius: 50%; width: 80%;">
+
+Data
+
+<img src="images/australia-data.jpg" alt="" style="height: 600px; width: auto;">
 </div>
+<div class="column">
 
-<div class="col-2">
-<div class="centered">
+Grid
 
-* Licenciado en Física (UNR)
-* Estudiante de Doctorado en Geofísica (UNSJ)
-* Becario Doctoral de CONICET
-* Desarrollador de [Fatiando a Terra](https://www.fatiando.org)
-* Miembro de [Computer-Oriented Geoscience Lab](https://www.compgeolab.org)
-
-</div>
+<img src="images/australia-grid.jpg" alt="" style="height: 600px; width: auto;">
 </div>
 
 </div>
-
----
-
-# You can add fade-in animations
-
-<div class="container">
-
-<div class="column fragment fade-in">
-
-First element
-
-</div>
-
-<div class="column fragment fade-in">
-
-Second element
-
-</div>
-
-</div>
-
----
-
-## Even on lists
-
-<ul>
-<li class="fragment fade-in">First element</li>
-<li class="fragment fade-in">Second element</li>
-<li class="fragment fade-in">Third element</li>
-</ul>
-
----
-
-## Highlight current item on list
-
-<ol>
-<li class="fragment highlight-current-blue">First element</li>
-<li class="fragment highlight-current-blue">Second element</li>
-<li class="fragment highlight-current-blue">Third element</li>
-</ol>
-
----
-
-# You can put footnotes
-
-<div class="bottom">
-
-https://www.blog.pythonlibrary.org/2019/04/11/python-used-to-take-photo-of-black-hole/
-
-</div>
-
----
-
-<!-- .slide: data-background-color="#FAFAFA" -->
-
-## You can change the background color
-
----
-
-## Add quotes
-
-<blockquote>
-This is a quote
-</blockquote>
-
----
-
-# Contacto
 
 <div>
 
-<ul class="fa-ul" style="">
-<li><i class="fa-li fa fa-envelope"></i>
-
-[santiago.r.soler@gmail.com](mailto:santiago.r.soler@gmail.com)
-
-</li>
-<li><i class="fa-li fab fa-twitter"></i>
-
-[@santirsoler](https://twitter.com/santirsoler)
-
-</li>
-<li><i class="fa-li fa fa-globe-americas"></i>
-
-[www.santisoler.com](https://www.santisoler.com)
-
-</li>
-</ul>
+Grid +1.7M data points with less than 16GB of RAM
 
 </div>
+
+---
+
+## Gridding large gravity dataset from Australia
+
+<div class="container" style="max-height: 60%">
+<div class="column">
+
+Data
+
+<img src="images/australia-data-zoom.jpg" alt="" style="height: 600px; width: auto;">
+</div>
+<div class="column">
+
+Grid
+
+<img src="images/australia-grid-zoom.jpg" alt="" style="height: 600px; width: auto;">
+</div>
+
+</div>
+
+<div>
+
+Grid +1.7M data points with less than 16GB of RAM
+
+</div>
+
+---
+
+## Scientific publication
+
+<img src="images/gji-eql-gradient-boosted.jpg" alt="" width="70%">
+
+<div class="bottom">
+
+S.R. Soler & Leonardo Uieda (2021).
+_Gradient-boosted equivalent sources_.
+Geophysical Journal International.
+doi: [10.1093/gji/ggab297](https://doi.org/10.1093/gji/ggab297)
+
+Preprint freely available at [EarthArXiv](https://eartharxiv.org/):
+[10.31223/X58G7C](https://doi.org/10.31223/X58G7C)
+
+</div>
+
+---
+
+# Wrapping up
+
+---
+
+## Variable density tesseroids
+
+<img src="images/gji-tesseroids-variable-density.jpg" alt="" width="70%">
+
+<div class="bottom">
+
+Soler, Pesce, Giménez & Uieda (2019). _Gravitational field calculation in
+spherical coordinates using variable densities in depth_. Geophysical Journal
+International. doi: [10.1093/gji/ggz277](https://doi.org/10.1093/gji/ggz277)
+
+Preprint freely available at [EarthArXiv](https://eartharxiv.org/):
+[10.31223/osf.io/3548g](https://doi.org/10.31223/osf.io/3548g)
+
+</div>
+
+---
+
+<!-- .slide: data-background-image="images/fatiando-background.svg" -->
+
+<img src="images/fatiando.jpg" alt="" width="100%">
+
+[www.fatiando.org](https://www.fatiando.org)
 
 ---
 
@@ -302,12 +293,11 @@ This is a quote
 <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
 </p>
 
-El contenido de esta presentación está disponible bajo
-
+This work is available under the <br>
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
 <!-- .slide: class="slide-title" -->
 
-# Muchas gracias
+# Thank you!
