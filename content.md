@@ -176,7 +176,7 @@ Gridding large datasets require a lot of **computer memory**.
 
 ## How do gradient-boosted equivalent sources work?
 
-<img src="images/eql-gradient-boosted.svg" style="width: 80%;">
+<img src="images/eql-gradient-boosted.svg" style="width: 70%;">
 
 ---
 
