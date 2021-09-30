@@ -171,13 +171,13 @@ Don't produce <br> **harmonic fields**
 <div class="column">
 <img src="images/function-of-height.svg" alt="" style="height: 300px">
 
-Take into account the <br> **observation heights**
+Takes into account the <br> **observation heights**
 
 </div>
 <div class="column">
 <img src="images/harmonic-field.svg" alt="" style="height: 300px">
 
-Always produce <br> **harmonic fields**
+Always produces <br> **harmonic fields**
 
 </div>
 </div>
@@ -206,7 +206,8 @@ Gridding large datasets require a lot of **computer memory**.
 
 ## Gradient-boosted equivalent sources
 
-- Removes memory limitations
+- Remove memory limitations
+- Produce accurate interpolations
 - Control memory usage through window size
 - Randomizing windows improves convergence
 
