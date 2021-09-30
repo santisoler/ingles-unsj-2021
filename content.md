@@ -31,6 +31,30 @@
 
 ---
 
+# About me
+
+<div class="container">
+
+<div class="column">
+<img src="images/about.jpg" style="margin-top: 5%; border-radius: 50%; width: 80%;">
+</div>
+
+<div class="col-2">
+<div class="centered">
+
+* Licentiate en Physics (UNR)
+* PhD Student in Geophysics (UNSJ)
+* CONICET scholarship
+* Developer of [Fatiando a Terra](https://www.fatiando.org)
+* Member of the [Computer-Oriented Geoscience Lab](https://www.compgeolab.org)
+
+</div>
+</div>
+
+</div>
+
+---
+
 # Advisor: Mario Giménez
 
 <img src="images/mario.jpg" alt="" style="height: 400px;">
